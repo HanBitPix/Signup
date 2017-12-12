@@ -1,0 +1,29 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Sign Up Page</title>
+      <link href="main.css" rel="stylesheet" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">      
+    </head>
+    <body>
+        <header>
+            <img class="logo" role="logo-image" src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png"/>
+        </header>
+        <main>
+            <form class='demo-form' action="/some-server-endpoint" method ='post'>
+            <h1>Sign Up</h1>
+            <fieldset name="sign-up">
+
+                <label for="email" required>Email</label>
+                <input type="email" name='email' id='email' placeholder="user@email.com"/>
+
+                <label for="password" required>Password</label>
+                <input type='password' name='password' id='password' required/>
+
+            </fieldset>
+
+                <button type='submit'>Sign Up</button>
+            </form>
+        </main>
+    </body>
+</html>

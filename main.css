@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;    
+    margin: auto;
+  }
+
+body {
+    background-color: rgb(119, 197, 119);
+}
+
+.logo{
+    height: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    background-color: rgb(89, 146, 212);
+    width: 400px;
+    text-align: center;
+}
+
+main:hover {
+    background-color: rgb(219, 69, 69);
+    border: 1px solid black;
+}
+
+h1 {
+    padding: 20px 0;
+    color: rgb(228, 228, 228);
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+   display: block;
+   margin: 10px auto;
+   font-size: 20px;
+   color: rgb(228, 228, 228);
+}
+
+input, button{
+    width: 320px;
+    height: 55px;
+    padding: 15px;
+    border: 1px solid rgb(218, 218, 218);
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(218, 218, 218, 0.8);
+}
+
+button {
+    margin: 15px auto 50px auto;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(88, 236, 207);
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(34, 34, 34);
+}
+
